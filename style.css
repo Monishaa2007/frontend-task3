@@ -1,0 +1,52 @@
+/* style.css */
+#app {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#searchButton {
+    padding: 8px 15px;
+}
+
+#results {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.result-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.result-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pagination button {
+    padding: 8px 15px;
+    margin: 0 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#error-message{
+    color: red;
+    margin-top: 10px;
+}
